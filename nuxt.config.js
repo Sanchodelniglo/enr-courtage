@@ -1,9 +1,12 @@
-
-export default {
-  mode: 'spa',
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/enr-courtage/'
-  },
+  }
+} : {}
+
+export default {
+  mode: 'universal',
+  routerBase,
   /*
   ** Headers of the page
   */
