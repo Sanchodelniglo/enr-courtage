@@ -1,6 +1,9 @@
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  router: {
+    base: '/enr-courtage/'
+  },
   /*
   ** Headers of the page
   */
