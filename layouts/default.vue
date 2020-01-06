@@ -1,8 +1,21 @@
 <template>
   <div>
+    <EnrNavbarLaptop/>
+    <EnrNavbarMobile/>
     <nuxt />
   </div>
 </template>
+
+<script>
+  import EnrNavbarLaptop from '@/components/EnrNavbarLaptop'
+  import EnrNavbarMobile from '@/components/EnrNavbarMobile'
+  export default {
+    components: {
+      EnrNavbarLaptop,
+      EnrNavbarMobile
+    }
+  };
+</script>
 
 <style>
 html {
@@ -22,6 +35,13 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .button--green {
