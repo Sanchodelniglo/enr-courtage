@@ -44,6 +44,10 @@ nav {
   width: 100%;
 }
 
+section {
+  height: calc(100vh - 70px);
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;

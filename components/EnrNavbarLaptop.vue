@@ -15,9 +15,12 @@
 
 <style>
   .enr-navbar-laptop {
-    background-color: #f8b500;
+    position: fixed!important;
+    top: 0px;
+    background-color: #ffeb01;
     height: 70px;
     letter-spacing: 1px;
+    z-index: 3;
   }
 
   .enr-navbar-laptop a {
