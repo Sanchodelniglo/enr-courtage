@@ -18,11 +18,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
-            <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-            <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-            <p class="mb-0">
-              Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+            <p>Fondée par des professionnels expérimentés dans le monde des énergies renouvelables, ENR COURTAGE® a pour objectif de rapprocher les porteurs de projets, agriculteurs, artisans, chefs d’entreprises, élus et simples citoyens, des entreprises sérieuses présentent sur le marché français et européen, quel que les solutions recherchées.
+            En tant que Courtiers, nous agissons librement et indépendamment des investisseurs dans l’unique but de répondre pleinement aux souhaits de nos clients.
+            Notre intervention est gratuite et vous garantit de bénéficier d’un interlocuteur expérimenté qui saura discuter d’éléments techniques avec les professionnels du monde des énergies renouvelables.
+            A l’instar d’un courtier en prêt immobilier, nous agissons en votre nom auprès de tous les acteurs sérieux afin de trouver la meilleure solution technique et les conditions financières les plus intéressantes.
             </p>
           </div>
         </div>
