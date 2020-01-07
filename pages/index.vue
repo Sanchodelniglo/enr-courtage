@@ -82,4 +82,12 @@ header .overlay {
   z-index: 1;
 }
 
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://comptroller.texas.gov/economy/fiscal-notes/2018/april/images/solar.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
 </style>
