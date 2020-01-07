@@ -17,7 +17,6 @@
   .enr-navbar-laptop {
     background-color: #f8b500;
     height: 70px;
-    color: white;
     letter-spacing: 1px;
   }
 
