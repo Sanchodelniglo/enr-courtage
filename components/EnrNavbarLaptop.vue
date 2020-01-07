@@ -15,7 +15,7 @@
 
 <style>
   .enr-navbar-laptop {
-    background-color: #526488;
+    background-color: #f8b500;
     height: 70px;
     color: white;
     letter-spacing: 1px;
@@ -23,7 +23,7 @@
 
   .enr-navbar-laptop a {
     text-decoration: none;
-    color: white;
+    color: rgba(32,36,43,1);
   }
 
   .enr-navbar-laptop a img {

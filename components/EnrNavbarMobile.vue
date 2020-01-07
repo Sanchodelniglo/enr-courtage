@@ -42,6 +42,6 @@
 
   .enr-navbar-mobile a {
     text-decoration: none;
-    color: rgba(32,36,43,0.8);
+    color: rgba(32,36,43,1);
   }
 </style>
