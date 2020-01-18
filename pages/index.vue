@@ -14,7 +14,7 @@
         </div>
       </div>
     </header>
-    <section class="my-5">
+    <section class="my-5 half-section">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto text-content">
@@ -26,24 +26,27 @@
         </div>
       </div>
     </section>
+    <Schema/>
   </div>
 </template>
 
+
 <script>
-import Logo from '~/components/Logo.vue'
+  import Logo from '~/components/Logo.vue'
+  import Schema from '~/components/Schema.vue'
 
-export default {
-  components: {
-    Logo
+  export default {
+    components: {
+      Logo,
+      Schema
+    }
   }
-}
 </script>
-
 <style>
   header {
     position: relative;
     background-color: black;
-    height: 100vh;
+    height: 50vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;

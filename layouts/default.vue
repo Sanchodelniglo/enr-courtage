@@ -9,6 +9,7 @@
 <script>
   import EnrNavbarLaptop from '@/components/EnrNavbarLaptop'
   import EnrNavbarMobile from '@/components/EnrNavbarMobile'
+
   export default {
     components: {
       EnrNavbarLaptop,
@@ -18,62 +19,84 @@
 </script>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+  html {
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
 
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
 
-section {
-  height: calc(100vh - 70px);
-}
+  /*section {*/
+  /*  height: calc(100vh - 70px);*/
+  /*}*/
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  /*.half-section {*/
+  /*  height: 50vh;*/
+  /*}*/
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+  .button--green {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #3b8070;
+    color: #3b8070;
+    text-decoration: none;
+    padding: 10px 30px;
+  }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+  .button--green:hover {
+    color: #fff;
+    background-color: #3b8070;
+  }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .button--grey {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #35495e;
+    color: #35495e;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-left: 15px;
+  }
+
+  .button--grey:hover {
+    color: #fff;
+    background-color: #35495e;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+
+  .show {
+    transition: ease-in-out 0.5s;
+    opacity: 1;
+  }
+
+  .grey-bg {
+    background-color: #737373;
+  }
+
+  .yellow-bg {
+    background-color: #fbff01;
+  }
+
 </style>
